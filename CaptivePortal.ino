@@ -1,3 +1,21 @@
+/*
+Author : F-Code101
+YouTube : https://www.youtube.com/@F-Code101
+Instagram : https://www.instagram.com/f_code101/
+Github : https://github.com/fcode101
+
+This code creates a captive portal using an ESP32. 
+It sets up a Wi-Fi access point and a web server. 
+When a user connects to the access point and tries to access any website, 
+they will be redirected to the captive portal page where they can turn an LED on or off. 
+The DNS server is used to redirect all requests to the captive portal page.
+
+Install the required libraries and upload the code to your ESP32. 
+Then, connect to the "ESP32_Portal" Wi-Fi network using the password
+
+it may work or not depending on the device and its captive portal detection mechanism.
+*/
+
 #include <WiFi.h>
 #include <WebServer.h>
 #include <DNSServer.h>
@@ -172,15 +190,4 @@ Author : F-Code101
 YouTube : https://www.youtube.com/@F-Code101
 Instagram : https://www.instagram.com/f_code101/
 Github : https://github.com/fcode101
-
-This code creates a captive portal using an ESP32. 
-It sets up a Wi-Fi access point and a web server. 
-When a user connects to the access point and tries to access any website, 
-they will be redirected to the captive portal page where they can turn an LED on or off. 
-The DNS server is used to redirect all requests to the captive portal page.
-
-Install the required libraries and upload the code to your ESP32. 
-Then, connect to the "ESP32_Portal" Wi-Fi network using the password
-
-it may work or not depending on the device and its captive portal detection mechanism.
 */
