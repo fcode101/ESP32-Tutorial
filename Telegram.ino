@@ -6,7 +6,7 @@ Github : https://github.com/fcode101
 
 This code is for controlling an LED connected to an ESP32 using a Telegram bot.
 Make sure to replace "Your WIFI NAME", "Your WIFI PASSWORD", "Telegram Bot Token", 
-and "xxxxxxxxxx" with your chat ID.
+and "xxxxxxxxx" with your chat ID.
 
 this code will turn the LED on when the user sends the command "/on" 
 and turn it off when the user sends the command "/off".
